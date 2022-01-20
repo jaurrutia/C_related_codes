@@ -1,7 +1,7 @@
 /*Jonathan Urrutia 2019/02/07
 Third example. The use of characters is studied
 Excercises 1 - 6,7
-The loop works twice... it should be redo.
+The loop works twice since we add an "\n".
 */
 
 #include <stdio.h>
@@ -28,8 +28,6 @@ while((c = getchar())!= EOF){  /*The parenthesis operation is made before the !=
   putchar(c);
 
   printf("\n getchar() != EOF ->  %d\n", test );
-
-
 }
 
 

@@ -35,7 +35,8 @@ main()
   for(celsius = lower; celsius <= upper; celsius += step){
     fahr = celsius*(9./5.)+32.;
     kelvin = 273.15 + celsius;
-    printf("%10d %10.2f %10.2f\n", celsius, fahr, kelvin );  /*%10.2f for floats using only 2 digits after the point and printing them in a 10 characters space.*/
+    printf("%10d %10.2f %10.2f\n", celsius, fahr, kelvin );  /*%10.2f for floats using only 2 digits after the point and printing them in a 10 characters space.
+                                                                We can compute directly inside the printf: printf("%10.2f", celsius*(9./5.)+32.)*/
   }
 
   printf("\n\n\n Output in reverse \n\n\n");

@@ -33,10 +33,10 @@ printf("\n There are %ld characters, %d lines, %d tabs, %d blanks and %d back-sl
 
 printf("We replace all special characters to ist symbols:\n");
 while((c = getchar()) != EOF){
-  if(c == '\n'){ c = 'n'; printf("\\");}
-  if(c == '\t'){ c = 't';} printf("\\");
+  if(c == '\n'){ c = 'n' ; printf("\\");}
+  if(c == '\t'){ c = 't' ; printf("\\");}
   if(c == '\\'){ c = '\\'; printf("\\");}
-  if(c == ' ' ){ c = 'b'; printf("\\");}
+  if(c == ' ' ){ c = 'b' ; printf("\\");}
   putchar(c);
 }
 
@@ -46,8 +46,6 @@ while((c = getchar()) != EOF){
   if(c ==  ' '){++nb;}
   if( nb == 0 ){ putchar(c);}
   if(c != ' ' && nb != 0){ printf(" "); putchar(c); nb = 0;}
-
-
 }
 
 

@@ -18,7 +18,7 @@ The function 'main' is where the the program begins, so all C files must have a
 main()
 {
 printf("Hello, World!\n");  /*Prints what is written inside.*/
-printf("Smth weird \t :)" );
+printf("Smth weird \t :)\n" );
 }
 
 /*To run the program from the terminal, use:

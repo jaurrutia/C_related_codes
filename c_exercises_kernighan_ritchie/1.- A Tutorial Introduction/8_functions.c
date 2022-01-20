@@ -4,6 +4,8 @@ We'll define an exponentiation operator since it is not in the stdio.h library o
 C.
 We will also rewrite the 2_temperature_scale file so we use functions
 We explore the call by value behavior of C functions
+parameter: slot to be filled in in a functions
+argument: the value evaluated in the parameter
 */
 
 # include <stdio.h>
@@ -13,7 +15,8 @@ int power(int m, int n); /* Let's call the functions
                             The functions are located usually at the end
                             of the file. This is called a prototype and
                             should be consisten with it's definition
-                            at the end */
+                            at the end. We could have ommited the m and the n since
+                            they do not play an actual roll in anything. */
 int power_ver2( int m, int n);
 float t_fahrenheit(int celsius);
 float t_kelvin(int celsius);
