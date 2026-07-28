@@ -5,6 +5,7 @@ This directory contains C implementations and solutions to exercises from the cl
 ---
 
 ## Repository Overview
+
 The goal of this collection is to provide idiomatic, clean, and well-commented C solutions for the concepts and problems presented throughout the chapters of K&R. It serves as both a reference for C programming fundamentals and a workspace for practicing low-level programming concepts.
 
 The C files in each directory do not correspond to each excersise of the textbook but rather to a combination of them with the worked examples. There is a explanetion at the beginnin of each file detailing their parent sources.
@@ -12,6 +13,7 @@ The C files in each directory do not correspond to each excersise of the textboo
 ---
 
 ## Directory Structure
+
 The directory is structured by chapter, following the layout of the K&R book:
 
 ```text
