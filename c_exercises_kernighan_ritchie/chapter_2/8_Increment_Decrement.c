@@ -105,7 +105,7 @@ void squeeze_all(char s1[], char s2[]) {
     int i,j, lowest, new_lowest ;
     int found = 0;
 
-    lower = new_lower = MAXSIZE-1;
+    lowest = new_lowest = MAXSIZE-1;
 
     for(i = 0; s2[i] != '\0'; i++){
       for (j = 0; s1[j] != '\0' && s1[i] == s2[j]; i++){  /*If we have a match in the characters*/

@@ -13,6 +13,11 @@ Excercises 1-1 & 1-2
  /*In C, we have -> function and variables.
 The function 'main' is where the the program begins, so all C files must have a
 'main' function somewhere. ALWAYS.
+
+In the textbook no particular definition (as a variable/function) is needed for
+the 'main' function, but in C17 it is required to define the return type of the function.
+Usually it is an integer (int). The main function should return 0 if the program runs
+successfully, and a non-zero value if there is an error.
  */
 
 main()

@@ -13,7 +13,7 @@ int get_line_no_logical_op( char line[], int maxline);    // I had to change get
 /*Print the longest input line*/
 int main()
 {
-  int  len;                          /*Current line length, maximum length so far*/
+  int  len, len2;                          /*Current line length, maximum length so far*/
   char line[MAXLINE], longest[MAXLINE];   /*Current input line and  longest line input*/
 
   printf("This are the lengths of the algorithm with operator:\n");
@@ -22,7 +22,7 @@ int main()
      };
 
   printf("\n This are the lengths of the algorithm without operator:\n");
-  while((len = get_line_no_logical_op(line,MAXLINE)) > 0){
+  while((len2 = get_line_no_logical_op(line,MAXLINE)) > 0){
      printf("%d\n",len );
       };
 
